@@ -52,8 +52,8 @@ pip --version
 ### 2. Clone ou baixe o projeto
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/Kaneka4850/Analisador-de-documentos.git
+cd Analisador-de-documentos
 ```
 
 ### 3. Crie e ative um ambiente virtual (recomendado)
