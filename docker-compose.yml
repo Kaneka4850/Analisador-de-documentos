@@ -1,0 +1,14 @@
+services:
+  analisador:
+    build: .
+    volumes:
+      - ./imagens:/data
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      # Opcional — sobrescreva apenas o que precisar:
+      # - GEMINI_MODEL=gemini-2.5-flash
+      # - DELAY_SECONDS=4.0
+      # - TAMANHO_LOTE=10
+      # - MAX_RETRIES=5
+      # - ARQUIVO_SAIDA=Planilha_Laudos_Final.xlsx
+      # - ARQUIVO_CHECKPOINT=resultados_parciais.csv
